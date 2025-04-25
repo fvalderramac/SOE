@@ -40,6 +40,7 @@ figure {
 
 figure img {
     width: 100%;
+    max-width: 200px;
     border-radius: 15px;
 }
 
@@ -84,6 +85,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .proyectos button {
@@ -95,6 +97,11 @@ p {
     cursor: pointer;
     font-size: 1.6rem; 
     margin-top: 1.6rem; 
+}
+
+.proyectos button:hover {
+    background-color: var(--accent-color);
+    transition: background-color 0.3s ease;
 }
 
 .logos {
@@ -129,24 +136,25 @@ p {
     justify-items: center;
 }
   
+/* .empleados img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+    margin-bottom: 1.6rem;
+} */
+
 .empleados img {
     width: 80vw;
+    max-width: 400px;
     margin-bottom: 1.6rem;
 }
 
 .especialistas {
-    display: flex;
-    gap: 3.2rem; 
-    margin-top: 1.6rem; 
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-div .especialistas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 2.4rem;
-    margin-top: 1.6rem; /*16*/
+    margin-top: 1.6rem;
+    padding: 0 2rem;
 }
   
 .persona {
@@ -167,6 +175,7 @@ footer {
     color: var(--white);
     padding: 2.4rem 3.2rem; /*64 - 32*/
     text-align: center;
+    margin-top: 3.5rem;
 }
 
 footer h2 {
