@@ -77,8 +77,32 @@ h2 {
 }
 
 p {
-    padding: 1.28rem 3.2rem;
+    padding: 1.28rem 1.2rem;
     font-size: 2.5rem;
+    margin: 0;
+}
+
+.proyecciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2.4rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.proyecciones h2{
+    color: var(--white);
+    margin: 2rem 0rem 0rem 0rem;
+    padding: 0;
+}
+
+.proyeccion p {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.cardPro img {
+    width: 100px;
 }
 
 .proyectos {
@@ -88,7 +112,7 @@ p {
     text-align: center;
 }
 
-.proyectos button {
+button {
     padding: 1.28rem 3.2rem; /*12.8 - 32*/
     background-color: var(--primary-color);
     color: white;
@@ -135,13 +159,6 @@ p {
     margin-top: 1.6rem;
     justify-items: center;
 }
-  
-/* .empleados img {
-    width: 100%;
-    max-width: 900px;
-    border-radius: 12px;
-    margin-bottom: 1.6rem;
-} */
 
 .empleados img {
     width: 80vw;
@@ -166,8 +183,8 @@ p {
 }
   
 .persona img {
-    width: 100px;
-    margin-bottom: 1.6rem; /*16*/
+    width: 200px;
+    margin-bottom: 1.6rem;
 }
 
 footer {
@@ -184,5 +201,6 @@ footer h2 {
 
 footer p {
     padding: 0;
+    font-size: 1.5rem;
 }
 
