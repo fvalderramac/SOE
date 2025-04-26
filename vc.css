@@ -190,12 +190,13 @@ footer {
 
 .map-container {
     width: 100%;
-    position: relative;
-    padding: 2rem;
+    max-width: 400px; /* Puedes ajustarlo según el diseño */
+    margin: auto; /* Para centrarlo */
 }
 
 .map-container iframe {
     width: 100%;
+    height: 200px; /* Puedes modificar la altura si es necesario */
 }
 
 @media (max-width: 768px) {
@@ -222,14 +223,19 @@ footer h2 {
     font-size: 2rem;
 }
 
+.infoContacto {
+    padding: 30px 15px 15px 15px
+}
+
 .contacto p {
     padding: 0;
     font-size: 1.5rem;
+    line-height: 1.6;
 }
 
-/* .social-icons {
-    padding-top: 3.5rem;
-} */
+.social-icons {
+    padding: 15px
+}
 
 .social-icons a {
     padding: 0 1rem;
