@@ -190,7 +190,8 @@ footer {
 
 .map-container {
     width: 100%;
-    position: relative; 
+    position: relative;
+    padding: 2rem;
 }
 
 .map-container iframe {
